@@ -1,4 +1,5 @@
-import 'package:app/pages/experiment.dart';
+import 'package:app/pages/experiment/audio_exp.dart';
+import 'package:app/pages/experiment/motion_exp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Exp(),
+      home: MotionExp(),
     );
   }
 }

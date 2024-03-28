@@ -5,14 +5,14 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:record/record.dart';
 
-class Exp extends StatefulWidget {
-  const Exp({super.key});
+class AudioExp extends StatefulWidget {
+  const AudioExp({super.key});
 
   @override
-  State<Exp> createState() => _ExpState();
+  State<AudioExp> createState() => _AudioExpState();
 }
 
-class _ExpState extends State<Exp> {
+class _AudioExpState extends State<AudioExp> {
   late AudioRecorder record;
   late AudioPlayer audioPlayer;
   late Stream stream;
