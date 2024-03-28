@@ -1,4 +1,4 @@
-import 'package:app/pages/exp.dart';
+import 'package:app/pages/experiment.dart';
 import 'package:flutter/material.dart';
 
 void main() {
